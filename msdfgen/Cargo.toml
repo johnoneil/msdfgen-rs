@@ -39,7 +39,9 @@ version = "^0.6"
 optional = true
 
 [dependencies.freetype-rs]
-version = "^0.26"
+#version = "^0.26"
+git = "https://github.com/johnoneil/freetype-rs.git"
+rev = "46556713d453fe8124912968384aa4fcb4f8bd3c"
 optional = true
 
 [dependencies.png]
